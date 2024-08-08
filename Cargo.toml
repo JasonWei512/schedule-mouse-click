@@ -1,0 +1,25 @@
+[package]
+name = "schedule-mouse-click"
+description = "A command line tool to schedule a mouse click at a specific time."
+version = "0.1.0"
+authors = ["Jason Wei"]
+edition = "2021"
+
+homepage = "https://github.com/JasonWei512/schedule-mouse-click"
+repository = "https://github.com/JasonWei512/schedule-mouse-click"
+
+keywords = ["cli", "automation", "mouse"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.86"
+chrono = "0.4.38"
+clap = { version = "3.2.25", features = ["derive"] }
+colored = "2.1.0"
+console = "0.15.8"
+dateparser = "0.2.1"
+enigo = "0.2.1"
+humantime = "2.1.0"
+inquire = "0.7.5"
+keepawake = "0.5.1"
